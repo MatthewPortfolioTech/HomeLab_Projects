@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeLab Projects</title>
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- PRELOADER ANIMATION -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="circle"></div>
+      <p>Welcome to HomeLab Projects</p>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Matthew Mahasay</h1>
+        <p>Building Home Labs, Learning IT, Sharing Knowledge</p>
+        <a href="#projects" class="btn">Explore Projects</a>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I’m a technology enthusiast passionate about home lab projects, Active Directory, networking, and web development. 
+        I love experimenting with servers, creating IT solutions, and sharing my journey.
+      </p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Active Directory</div>
+        <div class="skill-card">Networking Basics</div>
+        <div class="skill-card">Windows Server</div>
+        <div class="skill-card">Customer support and communication</div>
+        <div class="skill-card">Ticketing Systems</div>
+        <div class="skill-card">Microsoft 365</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid-modern">
+
+    <!-- Active Directory Project -->
+    <a href="pages/active directory.html" class="project-tile">
+      <img src="images/project1.png" alt="Active Directory Lab">
+      <div class="status-label learning">Learning</div>
+      <div class="overlay">
+        <h3>Active Directory Lab</h3>
+        <p>
+          Full Active Directory lab setup with multiple domain controllers, organizational units, user accounts, 
+          security groups, and group policies. Ideal for hands-on IT practice.
+        </p>
+      </div>
+    </a>
+
+    <!-- Networking Project -->
+    <a href="pages/Networking.html" class="project-tile">
+      <img src="images/project2.png" alt="Networking Project">
+      <div class="status-label coming-soon">Coming Soon</div>
+      <div class="overlay">
+        <h3>Networking Project</h3>
+        <p>
+          Hands-on network setup with VLANs, IP routing, servers, and switches. Focused on real-world 
+          connectivity and troubleshooting scenarios.
+        </p>
+      </div>
+    </a>
+
+    <!-- Example Additional Project -->
+    <a href="https://github.com/MatthewPortfolioTech/HomeLab_Projects.git" class="project-tile" target="_blank" rel="noopener noreferrer">
+    <img src="images/Website.png" alt="Web Development Project">
+    <div class="overlay">
+        <h3>Web Development Project</h3>
+        <p>
+        Responsive website design using HTML, CSS, and JavaScript. Focused on clean layout, animations, 
+        and user interaction.
+        </p>
+    </div>
+    </a>
+
+
+
+    
+    </div>
+    </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Matthew Mahasay | <a href="mailto:your-email@example.com">Contact Me</a></p>
+  </footer>
+
+  <!-- PRELOADER SCRIPT -->
+  <script>
+    window.addEventListener('load', function() {
+      const preloader = document.getElementById('preloader');
+      preloader.classList.add('fade-out');
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 800);
+    });
+  </script>
+
+</body>
+</html>
