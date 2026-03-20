@@ -285,3 +285,17 @@ html {
 .status-label.coming-soon {
   background-color: #ff9500; /* Orange for coming soon */
 }
+
+/* Center the documentation button */
+.doc-btn-container {
+  text-align: center;   /* centers the button */
+  margin-top: 20px;     /* adds space above */
+}
+
+.doc-btn-container .btn {
+  display: inline-block; /* ensures button behaves properly */
+  padding: 12px 24px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+}
