@@ -299,3 +299,26 @@ html {
   text-decoration: none;
   border-radius: 8px;
 }
+
+
+.project-card {
+  display: block;
+  background-color: #1f2937; /* or any color */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  min-height: 180px;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-info {
+  position: static; /* no absolute positioning */
+  opacity: 1; /* always visible */
+  background: none;
+  color: white;
+}
